@@ -47,13 +47,13 @@ const ArtistProfile = () => {
             <h2 className="text-2xl font-bold mb-4">Artworks</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               <div className="bg-white rounded-lg shadow-lg p-4">
-                <img src={e.src[0]} alt="Artwork 1" className="w-full h-40 object-cover rounded" />
+                <img src={e.src[0]} alt="Artwork 1" className="w-64 h-48 md:w-72 object-cover rounded" />
               </div>
               <div className="bg-white rounded-lg shadow-lg p-4">
-                <img src={e.src[1]} alt="Artwork 2" className="w-full h-40 object-cover rounded" />
+                <img src={e.src[1]} alt="Artwork 2" className="w-64 h-48 md:w-72 object-cover rounded" />
               </div>
               <div className="bg-white rounded-lg shadow-lg p-4">
-                <img src={e.src[2]} alt="Artwork 3" className="w-full h-40 object-cover rounded" />
+                <img src={e.src[2]} alt="Artwork 3" className="w-64 h-48 md:w-72 object-cover rounded" />
               </div>
             </div>
           </div>
